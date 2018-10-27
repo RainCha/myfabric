@@ -10,7 +10,7 @@
 四个 Peer 节点分属于同一个管理域（example.com）下的两个组织 Org1 和 Org2，这两个组织都加入同一个应用通道（businesschannel）中。
 
 每个组织中的第一个节点（peer0 节点）作为锚节点与其他组织进行通信，所有节点通过域名都可以相互访问，整体网络拓扑如图:
-![图1](https://cdn-pri.nlark.com/yuque/0/2018/png/106116/1540637098408-fa016ecb-1ee7-472e-90ed-bc197539198d.png)
+![图1](http://ph9mtm457.bkt.clouddn.com/12.png)
 
 # 新建项目目录
 
@@ -100,7 +100,7 @@ configtxgen -profile TwoOrgsChannel -outputAnchorPeersUpdate ./Org1MSPanchors.tx
 ## 3.0 整理文件
 
 目前 myfabric 目录，文件有点多，现在整理成如下图：
-![图2](https://cdn-pri.nlark.com/yuque/0/2018/png/106116/1540640004095-7726c8e3-cf84-4dc7-b446-6d4afefb83a5.png)
+![图2](http://ph9mtm457.bkt.clouddn.com/13.png)
 就是新创建了一个 channel-artifacts 目录，并把# 第 2 步生成的配置文件放进去。
 
 ## 3.1 准备 docker-compose-cli.yaml 文件
