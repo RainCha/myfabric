@@ -100,8 +100,10 @@ configtxgen -profile TwoOrgsChannel -outputAnchorPeersUpdate ./Org1MSPanchors.tx
 ## 3.0 整理文件
 
 目前 myfabric 目录，文件有点多，现在整理成如下图：
+
 ![图2](http://ph9mtm457.bkt.clouddn.com/13.png)
-就是新创建了一个 channel-artifacts 目录，并把# 第 2 步生成的配置文件放进去。
+
+就是新创建了一个 channel-artifacts 目录，并把第 2 步生成的配置文件放进去。
 
 ## 3.1 准备 docker-compose-cli.yaml 文件
 
