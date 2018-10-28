@@ -186,6 +186,7 @@ services:
       - CORE_PEER_TLS_ROOTCERT_FILE=/etc/hyperledger/fabric/crypto-config/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/ca.crt
       - CORE_PEER_MSPCONFIGPATH=/etc/hyperledger/fabric/crypto-config/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp
     working_dir: /opt/gopath/src/github.com/hyperledger/fabric/peer
+    command: /bin/bash  ./scripts/step1_channel.sh
     volumes:
         - /var/run/:/host/var/run/
         - ./scripts/:/opt/gopath/src/github.com/hyperledger/fabric/peer/scripts/
