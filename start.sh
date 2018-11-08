@@ -1,4 +1,4 @@
- 
+  
 #### 定义通用变量
 ## 通道名称
 CHANNEL_NAME=businesschannel
